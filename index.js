@@ -1,3 +1,3 @@
-module.exports = function (id) {
-  return document.getElementById(id);
+module.exports = function(id) {
+  return document.querySelector(`#${id}`);
 };
