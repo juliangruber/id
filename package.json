@@ -1,21 +1,29 @@
 {
-  "name" : "id",
-  "description" : "get element by id",
-  "version" : "0.0.0",
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/juliangruber/id.git"
+  "name": "id",
+  "description": "get element by id",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/id.git"
   },
   "homepage": "https://github.com/juliangruber/id",
-  "main" : "index.js",
-  "scripts" : {
-    "test" : "tap test/*.js"
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint **/*.js && tap test/*.js"
   },
-  "dependencies" : {},
-  "devDependencies" : {
-    "tap" : "*"
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "*",
+    "eslint": "^5.12.1",
+    "eslint-plugin-unicorn": "^7.0.0"
   },
-  "keywords": ["get","element","by","id","browser"],
+  "keywords": [
+    "get",
+    "element",
+    "by",
+    "id",
+    "browser"
+  ],
   "author": {
     "name": "Julian Gruber",
     "email": "mail@juliangruber.com",

@@ -1,0 +1,6 @@
+{
+  "extends": ["plugin:unicorn/recommended"],
+  "rules": {
+    "unicorn/prefer-query-selector": "error"
+  }
+}
